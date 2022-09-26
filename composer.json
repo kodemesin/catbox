@@ -1,0 +1,22 @@
+{
+    "name": "kodemesin/catbox",
+    "description": "Package untuk menampilkan gambar kucing.",
+    "autoload": {
+        "psr-4": {
+            "Kodemesin\\Catbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kode Mesin"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kodemesin\\Catbox\\CatboxServiceProvider"
+            ]
+        }
+    }
+}
